@@ -30,7 +30,7 @@ struct MyStack {
 			return;
 		}
 
-		int t = .top(); // Top element.
+		int t = s.top(); // Top element.
 
 		cout << "Top Most Element is: ";
 
@@ -48,7 +48,7 @@ struct MyStack {
 		}
 
 		cout << "Top Most Element Removed: ";
-		int t = .top();
+		int t = s.top();
 		.pop();
 
 		// Minimum will change as the minimum element
