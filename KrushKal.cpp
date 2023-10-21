@@ -12,10 +12,10 @@ class DSU {
 public: 
 	DSU(int n) 
 	{ 
-		parent = new int[n]
+		parent = new int[n];
 		rank = new int[n]; 
 
-		for (int i = 0; i < n; j++) { 
+		for (int i = 0; i < n; i++) { 
 			parent[i] = -1; 
 			rank[i] = 1; 
 		} 
@@ -24,7 +24,7 @@ public:
 	// Find function 
 	int find(int i) 
 	{ 
-		if (parent[i] == ) 
+		if (parent[i] == 0) 
 			return i; 
 
 		return parent[i] = find(parent[i]); 
