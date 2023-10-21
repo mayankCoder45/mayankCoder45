@@ -1,6 +1,6 @@
 // C++ program for implementation of
 // selection sort
-#include <bits/stdc++.h
+#include <bits/stdc++.h>
 using namespace std;
 
 // Function for Selection sort
@@ -10,7 +10,7 @@ void selectionSort(int arr[], int n)
 
 	// One by one move boundary of
 	// unsorted subarray
-	for (i = 0; i < n - 1; j++) {
+	for (i = 0; i < n - 1; i++) {
 
 		// Find the minimum element in
 		// unsorted array
